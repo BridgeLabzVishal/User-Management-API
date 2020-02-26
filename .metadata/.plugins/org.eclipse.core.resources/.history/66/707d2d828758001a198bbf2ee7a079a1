@@ -1,0 +1,8 @@
+package com.bridgelabz.usermanagement.model;
+
+import java.io.Serializable;
+
+public class Admin implements Serializable{
+	
+
+}

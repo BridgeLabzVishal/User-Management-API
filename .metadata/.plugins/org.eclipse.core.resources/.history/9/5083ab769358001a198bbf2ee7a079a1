@@ -1,0 +1,5 @@
+package com.bridgelabz.usermanagement.services;
+
+public interface IServices {
+
+}

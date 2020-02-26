@@ -1,0 +1,12 @@
+package com.bridgelabz.usermanagement.controller;
+
+public class AdminController {
+	
+	public AdminController(){
+	}
+	
+	public String saveUser(User user) {
+		return 
+	}
+
+}

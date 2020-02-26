@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.jboss.tools.discovery.core.internal.connectors.PrepareInstallProfileJob$2.WizardSettings">
+		<item key="DIALOG_X_ORIGIN" value="-98"/>
+		<item key="DIALOG_Y_ORIGIN" value="-221"/>
+		<item key="DIALOG_WIDTH" value="813"/>
+		<item key="DIALOG_HEIGHT" value="532"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+	<section name="org.jboss.tools.discovery.core.internal.connectors.PrepareInstallProfileJob$2.SelectableIUsPage">
+		<item key="NameColumnWidth" value="420"/>
+		<item key="VersionColumnWidth" value="140"/>
+		<item key="IDColumnWidth" value="280"/>
+		<item key="ListSashWeight" value="800"/>
+		<item key="DetailsSashWeight" value="200"/>
+	</section>
+	<section name="org.jboss.tools.discovery.core.internal.connectors.PrepareInstallProfileJob$2.ResolutionResultsPage">
+		<item key="NameColumnWidth" value="400"/>
+		<item key="VersionColumnWidth" value="200"/>
+		<item key="IDColumnWidth" value="200"/>
+		<item key="ListSashWeight" value="800"/>
+		<item key="DetailsSashWeight" value="200"/>
+	</section>
+</section>

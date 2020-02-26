@@ -1,0 +1,12 @@
+package com.bridgelabz.usermanagement.services;
+
+import javax.ejb.Stateless;
+
+@Stateless
+public class ServicesImpl {
+
+  
+    public ServicesImpl() {
+    }
+
+}

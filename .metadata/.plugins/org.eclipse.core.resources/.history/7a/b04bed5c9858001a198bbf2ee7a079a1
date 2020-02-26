@@ -1,0 +1,17 @@
+package com.bridgelabz.usermanagement.services;
+
+import javax.ejb.Stateless;
+
+@Stateless
+public class ServicesImpl implements IServices{
+	JSONO
+    public ServicesImpl() {
+    }
+
+	@Override
+	public String addUser() {
+		
+		return null;
+	}
+
+}

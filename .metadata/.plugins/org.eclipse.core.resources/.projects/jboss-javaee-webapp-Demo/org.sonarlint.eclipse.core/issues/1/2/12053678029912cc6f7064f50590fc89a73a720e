@@ -1,0 +1,7 @@
+
+äsquid:S2629û"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.( è‘≠HüRMAJORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckà"ôRemove the declaration of thrown exception 'javax.validation.ConstraintViolationException' which is a subclass of 'javax.validation.ValidationException'.(ÛßÈ3H†RMINORZ
+CODE_SMELL
+∂%squid:RedundantThrowsDeclarationCheckà"oRemove the declaration of thrown exception 'javax.validation.ValidationException' which is a runtime exception.(ÛßÈ3H°RMINORZ
+CODE_SMELL

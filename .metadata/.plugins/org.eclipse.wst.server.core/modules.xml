@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:usermanagementapi" serverId="WildFly 18.0 Runtime Server1581342661002"/>
+  <module moduleId="org.eclipse.jst.jee.server:EnterpriseProj" serverId="WildFly 18 at localhost"/>
+</modules>
