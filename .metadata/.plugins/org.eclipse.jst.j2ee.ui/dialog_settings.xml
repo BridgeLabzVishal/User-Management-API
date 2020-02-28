@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<item key="LASTEARNAME_" value="user-managementEAR"/>
 	<list key="MRU_RUNTIME_STORE">
+		<item value="JBoss 7.1 Runtime"/>
 		<item value="WildFly 18.0 Runtime"/>
 	</list>
 </section>

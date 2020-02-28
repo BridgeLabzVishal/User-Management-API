@@ -1,5 +1,0 @@
-package com.bridgelabz.usermanagement.services;
-
-public class ServicesImplementation implements IServices{
-
-}

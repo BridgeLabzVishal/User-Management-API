@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="User-Management-Api">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="User-Management-Api(EJB).jar" deploy-path="/WEB-INF/lib" handle="module:/resource/User-Management-Api(EJB)/User-Management-Api(EJB)">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="User-Management-Api"/>
+        <property name="java-output-path" value="/User-Management-Api/build/classes"/>
+    </wb-module>
+</project-modules>

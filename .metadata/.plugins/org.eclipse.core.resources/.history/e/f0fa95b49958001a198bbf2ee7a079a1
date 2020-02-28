@@ -1,7 +1,0 @@
-package com.bridgelabz.usermanagement.repository;
-
-public class AdminDAO {
-	
-	public void addUser()
-
-}

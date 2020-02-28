@@ -29,9 +29,11 @@
 <fullyQualifiedTypeName name="javax.servlet.Registration"/>
 <fullyQualifiedTypeName name="com.bridgelabz.usermanagement.model.User"/>
 <fullyQualifiedTypeName name="com.bridgelabz.usermanagement.services.IServices"/>
-<fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
 <fullyQualifiedTypeName name="javax.json.JsonNumber"/>
 <fullyQualifiedTypeName name="com.bridgelabz.usermanagement.model.Registration"/>
+<fullyQualifiedTypeName name="javax.ejb.Remote"/>
 <fullyQualifiedTypeName name="com.bridgelabz.usermanagement.repository.AdminDAO"/>
+<fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
+<fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
 <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
 </qualifiedTypeNameHistroy>
