@@ -1,11 +1,11 @@
-#Fri Feb 28 15:55:27 IST 2020
+#Sat Feb 29 09:30:51 IST 2020
 vl=How many times the 'Finish' button pressed during the day
 l=Wizard class name
 ct=jbt
-d=1582885527161
+d=1582948851593
 c=0
 cmp=usage
 a=finishWizard
 cl=org.eclipse.jst.j2ee.ui.project.facet.EarProjectWizard
 v=2.2.202
-s=2
+s=0
