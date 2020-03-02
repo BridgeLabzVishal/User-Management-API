@@ -117,5 +117,14 @@ public class Controller {
 		return jsonArray;
     }
     
-    
+    @GET
+    @Path("/latestregistered")
+    @Produces(MediaType.APPLICATION_JSON)
+    public JSONArray latestRegistered(){
+    	JSONArray jsonArray = new JSONArray();
+    	List<?>userList = services.latestRegistered();
+    	for(Object user : userList)
+    		jsonArray.add(user);
+		return jsonArray;
+    }
 }

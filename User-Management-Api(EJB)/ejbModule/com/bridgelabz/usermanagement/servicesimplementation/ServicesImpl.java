@@ -73,4 +73,10 @@ public class ServicesImpl implements IServices {
 		TypedQuery<Registration> query = (TypedQuery<Registration>) entityManager.createQuery("SELECT c.state,count(*) as Counts FROM user_management_api c GROUP BY c.state ORDER BY Counts DESC");
 		return query.getResultList();
 	}
+
+	@Override
+	public List<?> latestRegistered() {
+		Query query = entityManager.createQuery("SELECT c FROM user_management_api c ORDER by c.id DESC");
+		return query.setMaxResults(5).getResultList();
+	}
 }

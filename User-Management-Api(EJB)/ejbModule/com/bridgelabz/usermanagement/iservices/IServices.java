@@ -14,4 +14,5 @@ public interface IServices {
 	String updateUser(int id,Registration user);
 	List<?> genderWise(String gender);
 	List<?> topLocations();
+	List<?> latestRegistered();
 }
