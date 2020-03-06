@@ -42,21 +42,22 @@ public class Controller {
     @GET
     @Path("/getOneUser")
     @Produces(MediaType.APPLICATION_JSON)
-    public Registration getUser(@QueryParam("email")String email) {
-    	return services.getOneUser(email);
+    public Response getUser(@QueryParam("email")String email) {
+    	Registration output = services.getOneUser(email);
+		return Response.status(200).entity(output).build();
     	
     }
     
     @GET
 	@Path("/getAll")
 	@Produces(MediaType.APPLICATION_JSON)
-	public JSONArray getAllUsers() {
+	public Response getAllUsers() {
 		JSONArray jsonArray = new JSONArray();
 		List<?> userList = services.getAllUser();
 		for (Object user : userList) {
 			jsonArray.add(user);
 		}
-		return jsonArray;
+		return Response.status(200).entity(jsonArray).build();
 	}
     
     @DELETE
@@ -97,34 +98,34 @@ public class Controller {
     @GET
     @Path("/gender")
     @Produces(MediaType.APPLICATION_JSON)
-    public JSONArray genderWise(@QueryParam("gender")String gender) {
+    public Response genderWise(@QueryParam("gender")String gender) {
     	JSONArray jsonArray = new JSONArray();
     	List<?> userList = services.genderWise(gender);
     	for(Object user : userList)
     		jsonArray.add(user);
-    	return jsonArray;
+    	return Response.status(200).entity(jsonArray).build();
     }
     
     @GET
     @Path("/locations")
     @Produces(MediaType.APPLICATION_JSON)
-    public JSONArray topLocations(){
+    public Response topLocations(){
     	JSONArray jsonArray = new JSONArray();
     	List<?> userList = services.topLocations();
 		for (Object user : userList) {
 			jsonArray.add(user);
 		}
-		return jsonArray;
+		return Response.status(200).entity(jsonArray).build();
     }
     
     @GET
     @Path("/latestregistered")
     @Produces(MediaType.APPLICATION_JSON)
-    public JSONArray latestRegistered(){
+    public Response latestRegistered(){
     	JSONArray jsonArray = new JSONArray();
     	List<?>userList = services.latestRegistered();
     	for(Object user : userList)
     		jsonArray.add(user);
-		return jsonArray;
+		return Response.status(200).entity(jsonArray).build();
     }
 }

@@ -16,6 +16,7 @@ public class Registration implements Serializable{
 	private String firstName;
 	private String middleName;
 	private String lastName;
+	private String userName;
 	private String email;
 	private String password;
 	private String gender;
@@ -25,6 +26,7 @@ public class Registration implements Serializable{
 	private String country;
 	private int zip;
 	private long contact;
+	private String userRole;
 	public int getId() {
 		return id;
 	}
@@ -48,6 +50,12 @@ public class Registration implements Serializable{
 	}
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 	public String getEmail() {
 		return email;
@@ -102,5 +110,18 @@ public class Registration implements Serializable{
 	}
 	public void setContact(long contact) {
 		this.contact = contact;
+	}
+	public String getUserRole() {
+		return userRole;
+	}
+	public void setUserRole(String userRole) {
+		this.userRole = userRole;
+	}
+	@Override
+	public String toString() {
+		return "Registration [id=" + id + ", firstName=" + firstName + ", middleName=" + middleName + ", lastName="
+				+ lastName + ", userName=" + userName + ", email=" + email + ", password=" + password + ", gender="
+				+ gender + ", dateOfBirth=" + dateOfBirth + ", age=" + age + ", state=" + state + ", country=" + country
+				+ ", zip=" + zip + ", contact=" + contact + ", userRole=" + userRole + "]";
 	}
 }
